@@ -61,7 +61,7 @@ export class HomeScreen extends Component {
       <div style = {{ fontSize: 20, fontStyle: 'roboto', color: "white"}}>{this.state.personaje.status}</div>
         <div style = {{ fontSize: 20, fontStyle: 'roboto', color: "white"}}>{this.state.personaje.species}</div>
         <br></br>
-        <img style = {{borderRadius: 10}} src={this.state.personaje.avatar} />
+        <img style = {{borderRadius: 10}} src={this.state.personaje.image} />
         </div>
       </div>
       )}
